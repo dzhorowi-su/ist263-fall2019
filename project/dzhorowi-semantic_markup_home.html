@@ -1,24 +1,56 @@
 <!doctype html>
 <html lang="en">
-       
-<head>
-    <title>
-        History of the Automobile
-    </title>
-</head>     
-<h1>History of the Automobile</h1>  
 
-        <p><img src="header_car.jpg" alt="image of old fashioned car" /></p>
-        <p><a href="file:///C:/Users/dzhor/OneDrive/Desktop/dzhorowi-semantic_markup_home.html">Home</a></p>
-        <p><a href="file:///C:/Users/dzhor/OneDrive/Desktop/dzhorowi-semantic_markup_history.html">History of the automobile</a></p>
-        <p><a href="file:///C:/Users/dzhor/OneDrive/Desktop/dzhorowi-semantic_markup_future.html">Current automobiles</a></p>
+<title>Home - History of the Automobile</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: ;
+}
+#main > nav {
+  order: -1;
+}
+h1, footer {
+  background: ;
+  height: 20vh;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
+</style>
+<body>     
+ 
 
-    <body>       
-        <p>On this website you will be able to find information regarding the history of automobiles. 
-            You will be able to learn about important historical events as well as what the future of automobiles may hold. 
-            Thank you for visiting History of the Automobile.</p>
-    
-
-    </body>
-
-</html>
+  <head> History of the Automobile
+     <p><img src="header_car.jpg" alt="image of old fashioned car" /></p> 
+  </head>
+  <div id="main">
+    <main>On this website you will be able to find information regarding the history of automobiles. 
+          You will be able to learn about important historical events as well as what the future of automobiles may hold. 
+          Thank you for visiting History of the Automobile.</main>
+          <nav>        <p><a href="dzhorowi-semantic_markup_home.html">Home</a></p>
+            <p><a href="dzhorowi-semantic_markup_history.html">History of the automobile</a></p>
+            <p><a href="dzhorowi-semantic_markup_future.html">Current automobiles</a></p>
+        <p><a href="dzhorowi-semantic_markup_contact.html">About Us/ Contact Us</a></p></nav>
+    <aside>
+    </aside>
+  </div>
+  <footer><center>Created by David Horowitz 2019</center></footer>
+</body>
