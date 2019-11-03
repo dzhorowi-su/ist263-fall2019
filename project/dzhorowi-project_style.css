@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Poppins&display=swap');
 
-* {
-    box-sizing: border-box; 
-  }
-  body {
-    font-family: 'Poppins';
+
+
+
+}
+h1: {
+    font-family: 'Poppins', sans-serif; 
+  display: flex;
+  min-height: 100vh;
+  margin: 0; 
+
+  
+}
+  body, nav, aside {
+    font-family: 'Noto Serif', serif;
+    font-size: large;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
+
+  }
+  head {
+      background-image: url("header_car.jpg");
+  
+    
   }
   #main {
     display: flex;
@@ -20,15 +36,25 @@
   #main > nav, 
   #main > aside {
     flex: 0 0 20vw;
-    background: green;
+    ;
   }
   #main > nav {
     order: -1;
   }
-  h1, footer {
-    background: blue;
+ h1, footer  {
+    background:  linear-gradient(to top, white ,grey );
     height: 20vh;
-  }
+  
+
+}
+
+
+}
   header, footer, article, nav, aside {
     padding: 1em;
+    
   }
+
+
+
+  background:  linear-gradient(to right, white , grey);
