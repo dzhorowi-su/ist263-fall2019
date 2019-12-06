@@ -1,14 +1,64 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Poppins&display=swap');
 
 
-.h1 {
-  background-color: #1abc9c; /* Green */
-  color: #ffffff;
+
+
+html h1 {
+color: black;
 }
+
+html p {
+  color: whitesmoke;
+  font-family: 'Noto Serif', serif;
+  }
+
+  html h3 {
+    color: darkblue;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    } 
+
+    html h4 {
+      color: black;
+      font-family: 'Noto Serif', serif;
+      
+      } 
+
+html body {
+  background-color: rgba(0,0,0,1.00);
+
+
+}
+
+html h2 {
+  color: red; 
+  font-family: 'Poppins', sans-serif; 
+}
+
+.jumbotron {
+  color: black; 
+  font-family: 'Poppins', sans-serif; 
+}
+
+html h1 {
+  color: ; 
+}
+
+
+
+h1: {
+background: black;
+color: blue;
+
+}
+
+
+
 
 }
 h1: {
     font-family: 'Poppins', sans-serif; 
+    color: black;
   display: flex;
   min-height: 100vh;
   margin: 0; 
@@ -44,15 +94,16 @@ h1: {
   #main > nav {
     order: -1;
   }
- h1, footer  {
-    background:  linear-gradient(to top, white ,grey );
+footer  {
+    color: whitesmoke;
+  font-size: medium;
     height: 20vh;
   
 
 }
 
 
-}
+
   header, footer, article, nav, aside {
     padding: 1em;
     
