@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Poppins&display=swap');
 
 
-
+.h1 {
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+}
 
 }
 h1: {
