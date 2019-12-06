@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Poppins&display=swap');
 
-
+html footer {
+  color: red;
+  font-family: 'Noto Serif', serif;
+  
+  } 
 
 
 html h1 {
