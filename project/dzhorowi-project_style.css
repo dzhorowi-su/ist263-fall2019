@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Poppins&display=swap');
 
+
 html footer {
   color: whitesmoke;
   font-family: 'Noto Serif', serif;
@@ -8,7 +9,7 @@ html footer {
 
 
 html h1 {
-  background: -webkit-linear-gradient(#dc0000, #000000);
+  background: -webkit-linear-gradient(#013172, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -19,7 +20,7 @@ html p {
   }
 
   html h3 {
-    color: darkblue;
+    color: black;
     font-family: 'Noto Serif', serif;
     font-style: italic;
     } 
@@ -31,12 +32,12 @@ html p {
       } 
 
 html body {
-  background: rgb(0,35,255);
-background: linear-gradient(0deg, rgba(0,35,255,1) 0%, rgba(0,0,0,1) 29%, rgba(0,0,0,1) 85%, rgba(255,0,0,1) 100%);
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 34%, rgba(0,212,255,1) 100%);
 }
 
 html h2 {
-  color: red; 
+color: black; 
   font-family: 'Poppins', sans-serif; 
 }
 
